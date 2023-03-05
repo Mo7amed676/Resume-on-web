@@ -1,0 +1,152 @@
+/* Header */
+
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+main {
+  margin-top: 60px; /* Set margin equal to navbar height */
+}
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 20px;
+}
+
+.logo img {
+  max-height: 40px;
+}
+
+ul.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.search-box {
+  text-align: right;
+}
+
+.search-box input[type="text"] {
+  padding: 5px;
+  border: none;
+  border-bottom: 2px solid #333;
+  font-size: 16px;
+  width: 200px;
+}
+
+.search-box button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .search-box {
+    flex: 1;
+    text-align: center;
+    margin-right: 20px;
+  }
+
+  .search-box input[type="text"] {
+    width: 100%;
+  }
+}
+
+
+.progress-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  /* background-color: #0bcfdd; */
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #14dbf5;
+  width: 0%;
+}
+.progress-container {
+  z-index: 9999;
+}
+
+
+main {
+  margin-top: 60px; /* Set margin equal to navbar height */
+}
+
+.content {
+  /* Main content styles here */
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.carousel-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.carousel-item.active {
+  opacity: 1;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 20px;
+}
+
+.carousel-caption h3 {
+  margin-top: 0;
+}
+
+.carousel-caption p {
+  margin-bottom: 0;
+}
