@@ -1,3 +1,10 @@
+window.addEventListener('load', function() {
+  var preloader = document.getElementById('preloader');
+  preloader.style.display = 'none';
+});
+
+ 
+
 // // get the section element
 // var section = document.getElementById("my-section");
 
