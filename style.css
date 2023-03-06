@@ -1083,7 +1083,338 @@ form button[type="submit"]:hover {
   /* overflow-y: auto; */
   overflow: hidden;
 }
-
+/* ///////////////////////// */
+#popup-container12 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
+#popup-container13 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
+#popup-container14 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
+#popup-container15 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
+#popup-container16 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
+#popup-container17 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
+#popup-container18 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
+#popup-container19 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
+#popup-container20 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
+#popup-container21 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
+#popup-container22 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
+/* ///////////////////////// */
+#popup-container23 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
+/* ///////////////////////// */
+#popup-container24 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
+/* ///////////////////////// */
+#popup-container25 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
+/* ///////////////////////// */
+#popup-container26 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
+/* ///////////////////////// */
+#popup-container27 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
+/* ///////////////////////// */
+#popup-container28 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
+/* ///////////////////////// */
+#popup-container29 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
 
 .popup-container {
   overflow: auto;
@@ -1213,7 +1544,208 @@ form button[type="submit"]:hover {
   background-color: transparent;
   border: none;
 }
-
+/* /////////////////////////////////////////////// */
+#close-btn12 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
+#close-btn13 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
+#close-btn14 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
+#close-btn15 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
+#close-btn16 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
+#close-btn17 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
+#close-btn18 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
+#close-btn19 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
+/* /////////////////////////////////////////////// */
+#close-btn20 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
+/* /////////////////////////////////////////////// */
+#close-btn21 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
+/* /////////////////////////////////////////////// */
+#close-btn22 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
+/* /////////////////////////////////////////////// */
+#close-btn23 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
+/* /////////////////////////////////////////////// */
+#close-btn24 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
+/* /////////////////////////////////////////////// */
+#close-btn25 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
+/* /////////////////////////////////////////////// */
+#close-btn26 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
+/* /////////////////////////////////////////////// */
+#close-btn27 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
+/* /////////////////////////////////////////////// */
+#close-btn28 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
+/* /////////////////////////////////////////////// */
+#close-btn29 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
+/* /////////////////////////////////////////////// */
+#close-btn30 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
 #subscribe-btn {
   background-color: #4CAF50;
   color: white;
@@ -1303,7 +1835,204 @@ form button[type="submit"]:hover {
   border-radius: 5px;
   cursor: pointer;
 }
-
+/* /////////////////////////////////// */
+#subscribe-btn11 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+#subscribe-btn12 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+#subscribe-btn13 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+#subscribe-btn14 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+#subscribe-btn15 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+#subscribe-btn16 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+#subscribe-btn17 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+#subscribe-btn18 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+#subscribe-btn19 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+#subscribe-btn20 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+#subscribe-btn21 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+#subscribe-btn22 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+#subscribe-btn23 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+#subscribe-btn24 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+#subscribe-btn25 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+#subscribe-btn26 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+#subscribe-btn27 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+#subscribe-btn28 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+#subscribe-btn29 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+#subscribe-btn30 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+#subscribe-btn31 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
 #subscribe-submit {
   background-color: #4CAF50;
   color: white;
@@ -1403,7 +2132,205 @@ form button[type="submit"]:hover {
   cursor: pointer;
   margin-top: 10px;
 }
+/* //////////////////////////////////////////// */
+#subscribe-submit11 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+#subscribe-submit12 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+#subscribe-submit13 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+#subscribe-submit14 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+#subscribe-submit15 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+#subscribe-submit16 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+#subscribe-submit17 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+#subscribe-submit18 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+#subscribe-submit19 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+#subscribe-submit20 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+#subscribe-submit21 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+#subscribe-submit22 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+#subscribe-submit23 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+#subscribe-submit24 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+#subscribe-submit25 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
 
+/* //////////////////////////////////////////// */
+#subscribe-submit26 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+
+/* //////////////////////////////////////////// */
+#subscribe-submit27 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+
+/* //////////////////////////////////////////// */
+#subscribe-submit28 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+
+/* //////////////////////////////////////////// */
+#subscribe-submit29 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
 
 
 
@@ -1493,5 +2420,8 @@ form button[type="submit"]:hover {
     font-size: 24px;
     color: #999;
   } */
+
+  
+
 
   
