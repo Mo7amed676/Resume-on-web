@@ -1,3 +1,49 @@
+.fancybox-button--zoom {
+  background-image: url('zoom.png');
+  background-size: 32px 32px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.gallery img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.zoomContainer {
+  z-index: 9999 !important;
+}
+/* ////////////////////////////////////// */
+#my-image {
+  width: 300px; /* set initial width */
+  height: auto; /* maintain aspect ratio */
+  cursor: pointer; /* change cursor on hover */
+}
+
+#my-image:hover {
+  opacity: 0.8; /* add hover effect */
+}
+
+#my-image.expanded {
+  position: fixed; /* fix image position */
+  top: 0;
+  left: 0;
+  width: 100%; /* fill screen width */
+  height: 100%; /* fill screen height */
+  z-index: 9999; /* set z-index above other elements */
+  cursor: zoom-out; /* change cursor on click */
+}
+
+
+
+
 #preloader {
   position: fixed;
   top: 0;
@@ -26,8 +72,13 @@
   100% { transform: rotate(360deg); }
 }
 
-
-
+.navhov:hover{
+  color: #4caf50;
+  text-decoration: none;
+}
+.act{
+  color: #4caf50;
+}
 
 
 
@@ -91,7 +142,7 @@
 
 .progress-bar {
   height: 100%;
-  background-color: #14dbf5;
+  background-color: #0d7204;
   width: 0%;
 }
 .progress-container {
@@ -116,6 +167,11 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
+  align-content: stretch;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 nav li {
@@ -164,7 +220,7 @@ nav a:hover {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #008CBA;
+  background-color: #4caf50;
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -172,7 +228,7 @@ nav a:hover {
 }
 
 #scroll-to-top-btn:hover {
-  background-color: #555;
+  background-color: #3e8e41;
 }
 
 nav form {
@@ -392,7 +448,7 @@ footer {
 }
 
 .my-link:hover {
-  color: green; /* changes the color of the link to green when hovered over */
+  color: #4CAF50; /* changes the color of the link to green when hovered over */
 }
 
 
@@ -1415,6 +1471,291 @@ form button[type="submit"]:hover {
   overflow: hidden;
 }
 /* ///////////////////////// */
+/* ///////////////////////// */
+#popup-container30 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
+/* ///////////////////////// */
+#popup-container31 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
+/* ///////////////////////// */
+#popup-container32 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
+/* ///////////////////////// */
+#popup-container33 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
+/* ///////////////////////// */
+#popup-container34 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
+/* ///////////////////////// */
+#popup-container35 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
+/* ///////////////////////// */
+#popup-container36 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
+/* ///////////////////////// */
+#popup-container37 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
+/* ///////////////////////// */
+#popup-container38 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
+/* ///////////////////////// */
+#popup-container39 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
+/* ///////////////////////// */
+#popup-container40 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
+/* ///////////////////////// */
+#popup-container41 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
+/* ///////////////////////// */
+#popup-container42 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
+/* ///////////////////////// */
+#popup-container43 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
+/* ///////////////////////// */
+#popup-container44 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  /* overflow-y: auto; */
+  overflow: hidden;
+}
+/* ///////////////////////// */
 
 .popup-container {
   overflow: auto;
@@ -1746,6 +2087,160 @@ form button[type="submit"]:hover {
   border: none;
 }
 /* /////////////////////////////////////////////// */
+/* /////////////////////////////////////////////// */
+#close-btn31 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
+/* /////////////////////////////////////////////// */
+#close-btn32 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
+/* /////////////////////////////////////////////// */
+#close-btn33 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
+/* /////////////////////////////////////////////// */
+#close-btn34 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
+/* /////////////////////////////////////////////// */
+#close-btn35 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
+/* /////////////////////////////////////////////// */
+#close-btn36 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
+/* /////////////////////////////////////////////// */
+#close-btn37 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
+/* /////////////////////////////////////////////// */
+#close-btn38 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
+/* /////////////////////////////////////////////// */
+#close-btn39 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
+/* /////////////////////////////////////////////// */
+#close-btn40 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
+/* /////////////////////////////////////////////// */
+#close-btn41 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
+/* /////////////////////////////////////////////// */
+#close-btn42 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
+/* /////////////////////////////////////////////// */
+#close-btn43 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
+/* /////////////////////////////////////////////// */
+#close-btn44 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #aaa;
+  background-color: transparent;
+  border: none;
+}
+/* /////////////////////////////////////////////// */
 #subscribe-btn {
   background-color: #4CAF50;
   color: white;
@@ -2025,6 +2520,204 @@ form button[type="submit"]:hover {
 /* /////////////////////////////////// */
 /* /////////////////////////////////// */
 #subscribe-btn31 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+#subscribe-btn32 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+#subscribe-btn33 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+#subscribe-btn34 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+#subscribe-btn35 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+#subscribe-btn36 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+#subscribe-btn37 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+#subscribe-btn38 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+#subscribe-btn39 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+#subscribe-btn40 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+#subscribe-btn41 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+#subscribe-btn42 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+#subscribe-btn43 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+#subscribe-btn44 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+#subscribe-btn45 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+#subscribe-btn46 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+#subscribe-btn47 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+#subscribe-btn48 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+#subscribe-btn49 {
   background-color: #4CAF50;
   color: white;
   padding: 10px;
@@ -2322,6 +3015,228 @@ form button[type="submit"]:hover {
 
 /* //////////////////////////////////////////// */
 #subscribe-submit29 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+
+/* //////////////////////////////////////////// */
+#subscribe-submit30 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+
+#subscribe-submit31
+ {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+
+#subscribe-submit32 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+
+#subscribe-submit33 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+
+#subscribe-submit34 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+
+#subscribe-submit35 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+
+#subscribe-submit36 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+
+#subscribe-submit37 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+
+#subscribe-submit38 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+
+#subscribe-submit39 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+
+#subscribe-submit40 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+
+#subscribe-submit41 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+
+#subscribe-submit42 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+
+#subscribe-submit43 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+
+#subscribe-submit44 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+
+#subscribe-submit45 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+
+#subscribe-submit46 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+
+#subscribe-submit47 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+
+#subscribe-submit48 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* //////////////////////////////////////////// */
+
+#subscribe-submit49 {
   background-color: #4CAF50;
   color: white;
   border: none;

@@ -3,46 +3,6 @@ window.addEventListener('load', function() {
   preloader.style.display = 'none';
 });
 
- 
-
-// // get the section element
-// var section = document.getElementById("my-section");
-
-// // get the number of subsections in the section
-// var subsections = section.getElementsByClassName("subsection00").length;
-
-// // if there is only one subsection, make the section flexible in size
-// if (subsections === 1) {
-//   section.style.height = "auto";
-// }
-
-// const section = document.querySelector('#my-section');
-// const subsections = section.querySelectorAll('.my-subsection');
-
-// if (subsections.length === 1) {
-//   subsections[0].style.width = '100%';
-// }
-
-// const section = document.querySelector('#my-section');
-// const subsections = section.querySelectorAll('.my-subsection');
-
-// if (subsections.length === 1) {
-//   subsections[0].style.width = '100%';
-// } else if (subsections.length > 1) {
-//   section.style.display = 'flex';
-//   section.style.flexDirection = 'column';
-//   subsections.forEach(subsection => {
-//     subsection.style.flex = 'none';
-//     subsection.style.width = '100%';
-//   });
-// }
-
-
-
-
-
-
-
 
 function scrollProgressBar() {
     var getMax = function () {
@@ -103,15 +63,14 @@ scrollToTopBtn.addEventListener("click", function() {
 });
 
 
-
 function toggleContent() {
   var content = document.querySelector('.subsection .content');
   content.classList.toggle('hidden');
 }
 
+
 // var button = document.querySelector('.subsection .btn');
 // button.addEventListener('click', toggleContent);
-
 
 // $(document).ready(function() {
 //   $('.subsection').click(function() {
@@ -156,4 +115,39 @@ function toggleContent() {
 //     }
 //   });
 // }
+
+
+
+// // get the section element
+// var section = document.getElementById("my-section");
+
+// // get the number of subsections in the section
+// var subsections = section.getElementsByClassName("subsection00").length;
+
+// // if there is only one subsection, make the section flexible in size
+// if (subsections === 1) {
+//   section.style.height = "auto";
+// }
+
+// const section = document.querySelector('#my-section');
+// const subsections = section.querySelectorAll('.my-subsection');
+
+// if (subsections.length === 1) {
+//   subsections[0].style.width = '100%';
+// }
+
+// const section = document.querySelector('#my-section');
+// const subsections = section.querySelectorAll('.my-subsection');
+
+// if (subsections.length === 1) {
+//   subsections[0].style.width = '100%';
+// } else if (subsections.length > 1) {
+//   section.style.display = 'flex';
+//   section.style.flexDirection = 'column';
+//   subsections.forEach(subsection => {
+//     subsection.style.flex = 'none';
+//     subsection.style.width = '100%';
+//   });
+// }
+
 

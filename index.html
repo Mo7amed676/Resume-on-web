@@ -2,34 +2,36 @@
 <html lang="en">
 
 <head>
+  <link rel="icon" type="image/png" href="utility/logo.png">
   <title>ResumeCV</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
 </head>
 
 <body>
   <nav> 
     <div class="logo">Coed</div>
     <ul>
-      <li><a href="#"> Home</a></li>
+      <li><a href="#home" class="navhov act"> Home</a></li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+        <a class="nav-link dropdown-toggle navhov" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="false">
           My
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#edu">Education</a>
-          <a class="dropdown-item" href="#cer">Certificates</a>
-          <a class="dropdown-item" href="#cour">Courses</a>
-          <a class="dropdown-item" href="#tra">Tarining</a>
-          <a class="dropdown-item" href="#vol">Voluntering</a>
+          <a class="dropdown-item" href="#course">Courses</a>
+          <a class="dropdown-item" href="#education">Education</a>
+          <a class="dropdown-item" href="#training">Training</a>
+          <a class="dropdown-item" href="#volunteering">Volunteering</a>
+          <a class="dropdown-item" href="#hckandcomp">Hackathons and Competitions</a>
+          <a class="dropdown-item" href="#project">Projects</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Logout</a>
         </div>
       </li>
 
-      <li class="nav-item dropdown">
+      <!-- <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="false">
           skills
@@ -40,10 +42,11 @@
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Logout</a>
         </div>
-      </li>
+      </li> -->
 
-      <li><a href="#abut">About</a></li>
-      <li><a href="#con">Contacts</a></li>
+      <li><a href="#skill" class="navhov">Skills</a></li>
+      <li><a href="#about" class="navhov" >About</a></li>
+      <li><a href="#contacts" class="navhov">Contacts</a></li>
     </ul>
     <div class="search-container">
       <form id="search-form" action="" method="GET">
@@ -310,11 +313,348 @@
 <!-- ///////////////////////////////////////////////// -->
 <!-- ///////////////////////////////////////////////// -->
 
+  <!-- /////////////////////////////////////////////////// -->
 
+  <div class="super-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="awesome-title-container">
+            <h2 class="awesome-title" id="course">Courses</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="d-flex flex-wrap justify-content-center">
+            
+            <div class="subsection">
+              <h3>Data analytics program from Google</h3>
+              <p>data analysis methods and concepts with <b>Python</b> and its libraries</p>
+              <a class="btn btn-primary" id="subscribe-btn2">See More</a>
+              <div id="popup-container2">
+                <div class="popup-content">
+                  <button id="close-btn2">&times;</button>
+                  <h2>2019 – 2023 Computer Science student</h2>
+                  <form>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="gallery">
+                          <a data-fancybox="gallery" href="Coursera DA/dafinal.jpg"><img style="width: 200px;height: inherit;" src="Coursera DA/dafinal.jpg"></a>
+                          <a href="https://www.coursera.com" target="_blank">verified</a>
+                        </div>
+                        <!-- <img style="width: 200px;height: inherit;" src="da.jpg"/> -->
+                      </div>
+                      <div class="col-6">
+                        <p><b>2019 – 2023</b><br>
+                          Computer Science student at Faculty of Computers and Artificial Intelligence
+                          Cairo University With GPA:
+                        </p>
+                      </div>
+                    </div>
+                    <button type="submit" id="subscribe-submit2">Subscribe</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="subsection">
+              <h3>supervised Machine Learning</h3>
+              <p>Machine Learning and deep neural network with Python</p>
+              <a class="btn btn-primary" id="subscribe-btn3">See More</a>
+              <div id="popup-container3">
+                <div class="popup-content">
+                  <button id="close-btn3">&times;</button>
+                  <h2>2019 – 2023 Computer Science student</h2>
+                  <form>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="gallery">
+                          <a data-fancybox="gallery" href="Coursera ML/ml.jpg"><img style="width: 200px;height: inherit;" src="Coursera ML/ml.jpg"></a>
+                          <a href="https://www.coursera.com" target="_blank">verified</a>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <p><b>2019 – 2023</b><br>
+                          Computer Science student at Faculty of Computers and Artificial Intelligence
+                          Cairo University With GPA:
+                        </p>
+                      </div>
+                    </div>
+                    <button type="submit" id="subscribe-submit3">Subscribe</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="subsection">
+              <h3>UX/UI program from Google </h3>
+              <p>learn design and prototype for apps and websites </p>
+              <a class="btn btn-primary" id="subscribe-btn4">See More</a>
+              <div id="popup-container4">
+                <div class="popup-content">
+                  <button id="close-btn4">&times;</button>
+                  <h2>2019 – 2023 Computer Science student</h2>
+                  <form>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="gallery">
+                          <a data-fancybox="gallery" href="Coursera UX/ux1.jpg"><img style="width: 200px;height: inherit;" src="Coursera UX/ux1.jpg"></a>
+                          <a href="https://www.coursera.com" target="_blank">verified</a>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <p><b>2019 – 2023</b><br>
+                          Computer Science student at Faculty of Computers and Artificial Intelligence
+                          Cairo University With GPA:
+                        </p>
+                      </div>
+                    </div>
+                    <button type="submit" id="subscribe-submit4">Subscribe</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            
+            <div class="subsection">
+              <h3>Huawei</h3>
+              <p>learnt huawei courses like HCIA, HCIP and HCIE and get certified with Python and Java</p>
+              <a class="btn btn-primary" id="subscribe-btn5">See More</a>
+              <div id="popup-container5">
+                <div class="popup-content">
+                  <button id="close-btn5">&times;</button>
+                  <h2>2019 – 2023 Computer Science student</h2>
+                  <form>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="gallery">
+                          <a data-fancybox="gallery" href="Huawei/huawei.jpg"><img style="width: 200px;height: inherit;" src="Huawei/huawei.jpg"></a>
+                          <a href="https://www.huawei.com" target="_blank">verified</a>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <p><b>2019 – 2023</b><br>
+                          Computer Science student at Faculty of Computers and Artificial Intelligence
+                          Cairo University With GPA:
+                        </p>
+                      </div>
+                    </div>
+                    <button type="submit" id="subscribe-submit5">Subscribe</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            
+            <div class="subsection">
+              <h3>Data structure and algorithms</h3>
+              <p>learn more algorithms to efficient my program with C++ </p>
+              <a class="btn btn-primary" id="subscribe-btn15">See More</a>
+              <div id="popup-container15">
+                <div class="popup-content">
+                  <button id="close-btn15">&times;</button>
+                  <h2>2019 – 2023 Computer Science student</h2>
+                  <form>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="gallery">
+                          <a data-fancybox="gallery" href="Huawei/huawei.jpg"><img style="width: 200px;height: inherit;" src="Huawei/huawei.jpg"></a>
+                          <a href="https://www.huawei.com" target="_blank">verified</a>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <p><b>2019 – 2023</b><br>
+                          Computer Science student at Faculty of Computers and Artificial Intelligence
+                          Cairo University With GPA:
+                        </p>
+                      </div>
+                    </div>
+                    <button type="submit" id="subscribe-submit15">Subscribe</button>
+                  </form>
+                </div>
+              </div>
+            </div>
 
+            
+            <div class="subsection">
+              <h3>SQL database </h3>
+              <p>learnt how to craete query and use it in backend as database storage </p>
+              <a class="btn btn-primary" id="subscribe-btn16">See More</a>
+              <div id="popup-container16">
+                <div class="popup-content">
+                  <button id="close-btn16">&times;</button>
+                  <h2>2019 – 2023 Computer Science student</h2>
+                  <form>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="gallery">
+                          <a data-fancybox="gallery" href="Huawei/huawei.jpg"><img style="width: 200px;height: inherit;" src="Huawei/huawei.jpg"></a>
+                          <a href="https://www.huawei.com" target="_blank">verified</a>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <p><b>2019 – 2023</b><br>
+                          Computer Science student at Faculty of Computers and Artificial Intelligence
+                          Cairo University With GPA:
+                        </p>
+                      </div>
+                    </div>
+                    <button type="submit" id="subscribe-submit16">Subscribe</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            
+            <div class="subsection">
+              <h3>Version control </h3>
+              <p>learnt how to use git and github </p>
+              <a class="btn btn-primary" id="subscribe-btn17">See More</a>
+              <div id="popup-container17">
+                <div class="popup-content">
+                  <button id="close-btn17">&times;</button>
+                  <h2>2019 – 2023 Computer Science student</h2>
+                  <form>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="gallery">
+                          <a data-fancybox="gallery" href="Huawei/huawei.jpg"><img style="width: 200px;height: inherit;" src="Huawei/huawei.jpg"></a>
+                          <a href="https://www.huawei.com" target="_blank">verified</a>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <p><b>2019 – 2023</b><br>
+                          Computer Science student at Faculty of Computers and Artificial Intelligence
+                          Cairo University With GPA:
+                        </p>
+                      </div>
+                    </div>
+                    <button type="submit" id="subscribe-submit17">Subscribe</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            
+            <div class="subsection">
+              <h3> OOP with C++</h3>
+              <p>learnt Object Oriented Programming and how can generlaize code and modulartize </p>
+              <a class="btn btn-primary" id="subscribe-btn18">See More</a>
+              <div id="popup-container18">
+                <div class="popup-content">
+                  <button id="close-btn18">&times;</button>
+                  <h2>2019 – 2023 Computer Science student</h2>
+                  <form>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="gallery">
+                          <a data-fancybox="gallery" href="Huawei/huawei.jpg"><img style="width: 200px;height: inherit;" src="Huawei/huawei.jpg"></a>
+                          <a href="https://www.huawei.com" target="_blank">verified</a>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <p><b>2019 – 2023</b><br>
+                          Computer Science student at Faculty of Computers and Artificial Intelligence
+                          Cairo University With GPA:
+                        </p>
+                      </div>
+                    </div>
+                    <button type="submit" id="subscribe-submit18">Subscribe</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            
+            <div class="subsection">
+              <h3> Agile </h3>
+              <p>Agile scrum methodology and applied on Trello software </p>
+              <a class="btn btn-primary" id="subscribe-btn19">See More</a>
+              <div id="popup-container19">
+                <div class="popup-content">
+                  <button id="close-btn19">&times;</button>
+                  <h2>2019 – 2023 Computer Science student</h2>
+                  <form>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="gallery">
+                          <a data-fancybox="gallery" href="Huawei/huawei.jpg"><img style="width: 200px;height: inherit;" src="Huawei/huawei.jpg"></a>
+                          <a href="https://www.huawei.com" target="_blank">verified</a>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <p><b>2019 – 2023</b><br>
+                          Computer Science student at Faculty of Computers and Artificial Intelligence
+                          Cairo University With GPA:
+                        </p>
+                      </div>
+                    </div>
+                    <button type="submit" id="subscribe-submit19">Subscribe</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            
+            <div class="subsection">
+              <h3> Software engineering course </h3>
+              <p> with Design Pattern and SOLID principle </p>
+              <a class="btn btn-primary" id="subscribe-btn20">See More</a>
+              <div id="popup-container20">
+                <div class="popup-content">
+                  <button id="close-btn20">&times;</button>
+                  <h2>2019 – 2023 Computer Science student</h2>
+                  <form>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="gallery">
+                          <a data-fancybox="gallery" href="Huawei/huawei.jpg"><img style="width: 200px;height: inherit;" src="Huawei/huawei.jpg"></a>
+                          <a href="https://www.huawei.com" target="_blank">verified</a>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <p><b>2019 – 2023</b><br>
+                          Computer Science student at Faculty of Computers and Artificial Intelligence
+                          Cairo University With GPA:
+                        </p>
+                      </div>
+                    </div>
+                    <button type="submit" id="subscribe-submit20">Subscribe</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            
+            <div class="subsection">
+              <h3> Frontend web development </h3>
+              <p> design frontend pages with js and its libraries </p>
+              <a class="btn btn-primary" id="subscribe-btn21">See More</a>
+              <div id="popup-container21">
+                <div class="popup-content">
+                  <button id="close-btn21">&times;</button>
+                  <h2>2019 – 2023 Computer Science student</h2>
+                  <form>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="gallery">
+                          <a data-fancybox="gallery" href="Huawei/huawei.jpg"><img style="width: 200px;height: inherit;" src="Huawei/huawei.jpg"></a>
+                          <a href="https://www.huawei.com" target="_blank">verified</a>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <p><b>2019 – 2023</b><br>
+                          HTML, CSS, JQuery, Bootstrap, ES6 , ReactJS
+                        </p>
+                      </div>
+                    </div>
+                    <button type="submit" id="subscribe-submit21">Subscribe</button>
+                  </form>
+                </div>
+              </div>
+            </div>
 
-
-
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- //////////////////////////////////////////////// -->
+  <!-- //////////////////////////////////////////////// -->
+  <!-- //////////////////////////////////////////////// -->
+  
 
   <div class="super-container">
     <div class="container">
@@ -322,7 +662,7 @@
       <div class="row">
         <div class="col-12">
           <div class="awesome-title-container">
-            <h2 class="awesome-title" id="edu">Education</h2>
+            <h2 class="awesome-title" id="education">Education</h2>
           </div>
         </div>
       </div>
@@ -334,7 +674,7 @@
               <h3>2019 – 2023 Computer Science student</h3>
               <p>studing at Faculty of Computers and Artificial Intelligence
                 Cairo University</p>
-              <a class="btn btn-primary" id="subscribe-btn">Learn More</a>
+              <a class="btn btn-primary" id="subscribe-btn">See More</a>
               <div id="popup-container">
                 <div class="popup-content">
                   <button id="close-btn">&times;</button>
@@ -342,7 +682,7 @@
                   <form>
                     <div class="row">
                       <div class="col-6">
-                        <img style="width: 200px;height: inherit;" src="fci.png"/>
+                        <img style="width: 200px;height: inherit;" src="utility/fci.png"/>
                       </div>
                       <div class="col-6">
                         <p><b>2019 – 2023</b><br>
@@ -354,7 +694,7 @@
                           <li>Second year with <span class="gpa">GPA 3.11</span></li>
                           <li>Third year with <span class="gpa">GPA 3.1</span></li>
                           <li>Fourth year and currently... <span class="gpa">GPA loading...</span></li>
-                          <li>with remaining hours to graduate <span class="gpa">21-H</span></li>
+                          <li>with remaining<span class="gpa">21-H</span> to graduate </li>
                         </ul>
                       </div>
                     </div>
@@ -386,14 +726,22 @@
   <!-- /////////////////////////////////////////////////// -->
   <!-- /////////////////////////////////////////////////// -->
   <!-- /////////////////////////////////////////////////// -->
-  <!-- /////////////////////////////////////////////////// -->
+  <!-- //////////////////////////////////////////////// -->
+  <!-- //////////////////////////////////////////////// -->
+  <!-- //////////////////////////////////////////////// -->
+
+            <!-- /filter all -orange coursera-->
+<!-- padges for companies -->
+  
+  
+  <!-- ////////////////////////////////////////// -->
 
   <div class="super-container">
     <div class="container">
       <div class="row">
         <div class="col-12">
           <div class="awesome-title-container">
-            <h2 class="awesome-title" id="cer">certificates</h2>
+            <h2 class="awesome-title" id="training">Training</h2>
           </div>
         </div>
       </div>
@@ -402,131 +750,25 @@
           <div class="d-flex flex-wrap justify-content-center">
             <div class="subsection">
               <h3>Orange Innovation Egypt</h3>
-              <p>certificate of completion of summer training </p>
-              <a class="btn btn-primary" id="subscribe-btn2">Learn More</a>
-              <div id="popup-container2">
-                <div class="popup-content">
-                  <button id="close-btn2">&times;</button>
-                  <h2>2019 – 2023 Computer Science student</h2>
-                  <form>
-                    <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
-                    <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
-                    <div class="row">
-                      <div class="col-6">
-                        <img style="width: 200px;height: inherit;" src="Picture3.png"/>
-                      </div>
-                      <div class="col-6">
-                        <p><b>2019 – 2023</b><br>
-                          Computer Science student at Faculty of Computers and Artificial Intelligence
-                          Cairo University With GPA:
-                        </p>
-                      </div>
-                    </div>
-                    <button type="submit" id="subscribe-submit2">Subscribe</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-            <div class="subsection">
-              <h3>Subsection 2</h3>
-              <p>Looin euismod est vitae quam bibendum, eget faucibus enim consectetur. </p>
-              <a class="btn btn-primary" id="subscribe-btn3">Learn More</a>
-              <div id="popup-container3">
-                <div class="popup-content">
-                  <button id="close-btn3">&times;</button>
-                  <h2>2019 – 2023 Computer Science student</h2>
-                  <form>
-                    <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
-                    <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
-                    <div class="row">
-                      <div class="col-6">
-                        <img style="width: 200px;height: inherit;" src="Picture3.png"/>
-                      </div>
-                      <div class="col-6">
-                        <p><b>2019 – 2023</b><br>
-                          Computer Science student at Faculty of Computers and Artificial Intelligence
-                          Cairo University With GPA:
-                        </p>
-                      </div>
-                    </div>
-                    <button type="submit" id="subscribe-submit3">Subscribe</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-            <div class="subsection">
-              <h3>Subsection 3</h3>
-              <p>LorProin euismod est vitae quam bibendum, eget faucibus enim consectetur. </p>
-              <a class="btn btn-primary" id="subscribe-btn4">Learn More</a>
-              <div id="popup-container4">
-                <div class="popup-content">
-                  <button id="close-btn4">&times;</button>
-                  <h2>2019 – 2023 Computer Science student</h2>
-                  <form>
-                    <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
-                    <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
-                    <div class="row">
-                      <div class="col-6">
-                        <img style="width: 200px;height: inherit;" src="ma.png"/>
-                      </div>
-                      <div class="col-6">
-                        <p><b>2019 – 2023</b><br>
-                          Computer Science student at Faculty of Computers and Artificial Intelligence
-                          Cairo University With GPA:
-                        </p>
-                      </div>
-                    </div>
-                    <button type="submit" id="subscribe-submit4">Subscribe</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-            <div class="subsection">
-              <h3>Subsection 4</h3>
-              <p>Lroin euismod est vitae quam bibendum, eget faucibus enim consectetur. </p>
-              <a class="btn btn-primary" id="subscribe-btn5">Learn More</a>
-              <div id="popup-container5">
-                <div class="popup-content">
-                  <button id="close-btn5">&times;</button>
-                  <h2>2019 – 2023 Computer Science student</h2>
-                  <form>
-                    <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
-                    <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
-                    <div class="row">
-                      <div class="col-6">
-                        <img style="width: 200px;height: inherit;" src="Picture3.png"/>
-                      </div>
-                      <div class="col-6">
-                        <p><b>2019 – 2023</b><br>
-                          Computer Science student at Faculty of Computers and Artificial Intelligence
-                          Cairo University With GPA:
-                        </p>
-                      </div>
-                    </div>
-                    <button type="submit" id="subscribe-submit5">Subscribe</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-            <div class="subsection">
-              <h3>Subsection 5</h3>
-              <p>Lorroin euismod est vitae quam bibendum, eget faucibus enim consectetur. </p>
-              <a class="btn btn-primary" id="subscribe-btn6">Learn More</a>
+              <p>Data scienece training</p>
+              <a class="btn btn-primary" id="subscribe-btn6">See More</a>
               <div id="popup-container6">
                 <div class="popup-content">
                   <button id="close-btn6">&times;</button>
-                  <h2>2019 – 2023 Computer Science student</h2>
+                  <h2>Orange Innovation Summer training</h2>
                   <form>
                     <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
                     <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
                     <div class="row">
                       <div class="col-6">
-                        <img style="width: 200px;height: inherit;" src="Picture3.png"/>
+                        <div class="gallery">
+                          <a data-fancybox="gallery" href="Ind certificates/Orange.jpg"><img style="width: 200px;height: inherit;" src="Ind certificates/Orange.jpg"></a>
+                        </div>
+                        <!-- <img style="width: 200px;height: inherit;" src="Orange.jpg"/> -->
                       </div>
                       <div class="col-6">
-                        <p><b>2019 – 2023</b><br>
-                          Computer Science student at Faculty of Computers and Artificial Intelligence
-                          Cairo University With GPA:
+                        <p><b>August/2022 – 10/2022</b><br>
+                          trainee with data science team
                         </p>
                       </div>
                     </div>
@@ -535,37 +777,11 @@
                 </div>
               </div>
             </div>
+            
             <div class="subsection">
-              <h3>Subsection 5</h3>
-              <p>in euismod est vitae quam bibendum, eget faucibus enim consectetur. </p>
-              <a class="btn btn-primary" id="subscribe-btn7">Learn More</a>
-              <div id="popup-container7">
-                <div class="popup-content">
-                  <button id="close-btn7">&times;</button>
-                  <h2>2019 – 2023 Computer Science student</h2>
-                  <form>
-                    <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
-                    <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
-                    <div class="row">
-                      <div class="col-6">
-                        <img style="width: 200px;height: inherit;" src="Picture3.png"/>
-                      </div>
-                      <div class="col-6">
-                        <p><b>2019 – 2023</b><br>
-                          Computer Science student at Faculty of Computers and Artificial Intelligence
-                          Cairo University With GPA:
-                        </p>
-                      </div>
-                    </div>
-                    <button type="submit" id="subscribe-submit7">Subscribe</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-            <div class="subsection">
-              <h3>Subsection 5</h3>
-              <p>L Proin euismod est vitae quam bibendum, eget faucibus enim consectetur. </p>
-              <a class="btn btn-primary" id="subscribe-btn8">Learn More</a>
+              <h3>ITI Menofia</h3>
+              <p>training for a month</p>
+              <a class="btn btn-primary" id="subscribe-btn8">See More</a>
               <div id="popup-container8">
                 <div class="popup-content">
                   <button id="close-btn8">&times;</button>
@@ -575,7 +791,11 @@
                     <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
                     <div class="row">
                       <div class="col-6">
-                        <img style="width: 200px;height: inherit;" src="Picture3.png"/>
+                        <div class="gallery">
+                          <a data-fancybox="gallery" href="ITI/es6.jpg"><img style="width: 200px;height: inherit;" src="ITI/es6.jpg"></a>
+                          <a href="https://www.coursera.com" target="_blank">verified</a>
+                        </div>
+                        <!-- <img style="width: 200px;height: inherit;" src="Picture3.png"/> -->
                       </div>
                       <div class="col-6">
                         <p><b>2019 – 2023</b><br>
@@ -590,9 +810,9 @@
               </div>
             </div>
             <div class="subsection">
-              <h3>Subsection 5</h3>
-              <p>Lorem iProin euismod est vitae quam bibendum, eget faucibus enim consectetur. </p>
-              <a class="btn btn-primary" id="subscribe-btn9">Learn More</a>
+              <h3>MOCIT</h3>
+              <p>programs from MOCIT</p>
+              <a class="btn btn-primary" id="subscribe-btn9">See More</a>
               <div id="popup-container9">
                 <div class="popup-content">
                   <button id="close-btn9">&times;</button>
@@ -602,7 +822,11 @@
                     <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
                     <div class="row">
                       <div class="col-6">
-                        <img style="width: 200px;height: inherit;" src="Picture3.png"/>
+                        <div class="gallery">
+                          <a data-fancybox="gallery" href="MOCIT/mocit.jpg"><img style="width: 200px;height: inherit;" src="MOCIT/mocit.jpg"></a>
+                          <a href="https://www.coursera.com" target="_blank">verified</a>
+                        </div>
+                        <!-- <img style="width: 200px;height: inherit;" src="Picture3.png"/> -->
                       </div>
                       <div class="col-6">
                         <p><b>2019 – 2023</b><br>
@@ -616,30 +840,10 @@
                 </div>
               </div>
             </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- //////////////////////////////////////////////// -->
-
-  <div class="super-container">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="awesome-title-container">
-            <h2 class="awesome-title" id="cour">courses</h2>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <div class="d-flex flex-wrap justify-content-center">
             <div class="subsection">
-              <h3>Subsection 1</h3>
-              <p>Loin euismod est vitae quam bibendum, eget faucibus enim consectetur. </p>
-              <a class="btn btn-primary" id="subscribe-btn10">Learn More</a>
+              <h3>Sparks fundation</h3>
+              <p>for a month training</p>
+              <a class="btn btn-primary" id="subscribe-btn10">See More</a>
               <div id="popup-container10">
                 <div class="popup-content">
                   <button id="close-btn10">&times;</button>
@@ -649,7 +853,11 @@
                     <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
                     <div class="row">
                       <div class="col-6">
-                        <img style="width: 200px;height: inherit;" src="Picture3.png"/>
+                        <div class="gallery">
+                          <a data-fancybox="gallery" href="Sparks/spark.png"><img style="width: 200px;height: inherit;" src="Sparks/spark.png"></a>
+                          <a href="https://www.coursera.com" target="_blank">verified</a>
+                        </div>
+                        <!-- <img style="width: 200px;height: inherit;" src="Picture3.png"/> -->
                       </div>
                       <div class="col-6">
                         <p><b>2019 – 2023</b><br>
@@ -664,9 +872,9 @@
               </div>
             </div>
             <div class="subsection">
-              <h3>Subsection 2</h3>
-              <p>Looin euismod est vitae quam bibendum, eget faucibus enim consectetur. </p>
-              <a class="btn btn-primary" id="subscribe-btn11">Learn More</a>
+              <h3>Security meter</h3>
+              <p>training for 2-month </p>
+              <a class="btn btn-primary" id="subscribe-btn11">See More</a>
               <div id="popup-container11">
                 <div class="popup-content">
                   <button id="close-btn11">&times;</button>
@@ -676,7 +884,11 @@
                     <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
                     <div class="row">
                       <div class="col-6">
-                        <img style="width: 200px;height: inherit;" src="Picture3.png"/>
+                        <div class="gallery">
+                          <a data-fancybox="gallery" href="Ind certificates/sm.jpg"><img style="width: 200px;height: inherit;" src="Ind certificates/sm.jpg"></a>
+                          <a href="https://www.coursera.com" target="_blank">verified</a>
+                        </div>
+                        <!-- <img style="width: 200px;height: inherit;" src="Picture3.png"/> -->
                       </div>
                       <div class="col-6">
                         <p><b>2019 – 2023</b><br>
@@ -691,9 +903,9 @@
               </div>
             </div>
             <div class="subsection">
-              <h3>Subsection i8</h3>
-              <p>LorProin euismod est vitae quam bibendum, eget faucibus enim consectetur. </p>
-              <a class="btn btn-primary" id="subscribe-btn12">Learn More</a>
+              <h3>El-Sawy academy</h3>
+              <p>training </p>
+              <a class="btn btn-primary" id="subscribe-btn12">See More</a>
               <div id="popup-container12">
                 <div class="popup-content">
                   <button id="close-btn12">&times;</button>
@@ -703,7 +915,11 @@
                     <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
                     <div class="row">
                       <div class="col-6">
-                        <img style="width: 200px;height: inherit;" src="Picture3.png"/>
+                        <div class="gallery">
+                          <a data-fancybox="gallery" href="sawy/hr.jpg"><img style="width: 200px;height: inherit;" src="sawy/hr.jpg"></a>
+                          <a href="https://www.coursera.com" target="_blank">verified</a>
+                        </div>
+                        <!-- <img style="width: 200px;height: inherit;" src="Picture3.png"/> -->
                       </div>
                       <div class="col-6">
                         <p><b>2019 – 2023</b><br>
@@ -717,273 +933,11 @@
                 </div>
               </div>
             </div>
-            <div class="subsection">
-              <h3>Subsection 4</h3>
-              <p>Lroin euismod est vitae quam bibendum, eget faucibus enim consectetur. </p>
-              <a class="btn btn-primary" id="subscribe-btn13">Learn More</a>
-              <div id="popup-container13">
-                <div class="popup-content">
-                  <button id="close-btn13">&times;</button>
-                  <h2>2019 – 2023 Computer Science student</h2>
-                  <form>
-                    <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
-                    <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
-                    <div class="row">
-                      <div class="col-6">
-                        <img style="width: 200px;height: inherit;" src="Picture3.png"/>
-                      </div>
-                      <div class="col-6">
-                        <p><b>2019 – 2023</b><br>
-                          Computer Science student at Faculty of Computers and Artificial Intelligence
-                          Cairo University With GPA:
-                        </p>
-                      </div>
-                    </div>
-                    <button type="submit" id="subscribe-submit13">Subscribe</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-            <div class="subsection">
-              <h3>Subsection 5</h3>
-              <p>Lorroin euismod est vitae quam bibendum, eget faucibus enim consectetur. </p>
-              <a class="btn btn-primary" id="subscribe-btn14">Learn More</a>
-              <div id="popup-container14">
-                <div class="popup-content">
-                  <button id="close-btn14">&times;</button>
-                  <h2>2019 – 2023 Computer Science student</h2>
-                  <form>
-                    <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
-                    <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
-                    <div class="row">
-                      <div class="col-6">
-                        <img style="width: 200px;height: inherit;" src="Picture3.png"/>
-                      </div>
-                      <div class="col-6">
-                        <p><b>2019 – 2023</b><br>
-                          Computer Science student at Faculty of Computers and Artificial Intelligence
-                          Cairo University With GPA:
-                        </p>
-                      </div>
-                    </div>
-                    <button type="submit" id="subscribe-submit14">Subscribe</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-            <div class="subsection">
-              <h3>Subsection 5</h3>
-              <p>in euismod est vitae quam bibendum, eget faucibus enim consectetur. </p>
-              <a class="btn btn-primary" id="subscribe-btn15">Learn More</a>
-              <div id="popup-container15">
-                <div class="popup-content">
-                  <button id="close-btn15">&times;</button>
-                  <h2>2019 – 2023 Computer Science student</h2>
-                  <form>
-                    <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
-                    <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
-                    <div class="row">
-                      <div class="col-6">
-                        <img style="width: 200px;height: inherit;" src="Picture3.png"/>
-                      </div>
-                      <div class="col-6">
-                        <p><b>2019 – 2023</b><br>
-                          Computer Science student at Faculty of Computers and Artificial Intelligence
-                          Cairo University With GPA:
-                        </p>
-                      </div>
-                    </div>
-                    <button type="submit" id="subscribe-submit15">Subscribe</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-            <div class="subsection">
-              <h3>Subsection 5</h3>
-              <p>L Proin euismod est vitae quam bibendum, eget faucibus enim consectetur. </p>
-              <a class="btn btn-primary" id="subscribe-btn16">Learn More</a>
-              <div id="popup-container16">
-                <div class="popup-content">
-                  <button id="close-btn16">&times;</button>
-                  <h2>2019 – 2023 Computer Science student</h2>
-                  <form>
-                    <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
-                    <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
-                    <div class="row">
-                      <div class="col-6">
-                        <img style="width: 200px;height: inherit;" src="Picture3.png"/>
-                      </div>
-                      <div class="col-6">
-                        <p><b>2019 – 2023</b><br>
-                          Computer Science student at Faculty of Computers and Artificial Intelligence
-                          Cairo University With GPA:
-                        </p>
-                      </div>
-                    </div>
-                    <button type="submit" id="subscribe-submit16">Subscribe</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-            <div class="subsection">
-              <h3>Subsection 5</h3>
-              <p>Lorem iProin euismod est vitae quam bibendum, eget faucibus enim consectetur. </p>
-              <a class="btn btn-primary" id="subscribe-btn17">Learn More</a>
-              <div id="popup-container17">
-                <div class="popup-content">
-                  <button id="close-btn17">&times;</button>
-                  <h2>2019 – 2023 Computer Science student</h2>
-                  <form>
-                    <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
-                    <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
-                    <div class="row">
-                      <div class="col-6">
-                        <img style="width: 200px;height: inherit;" src="Picture3.png"/>
-                      </div>
-                      <div class="col-6">
-                        <p><b>2019 – 2023</b><br>
-                          Computer Science student at Faculty of Computers and Artificial Intelligence
-                          Cairo University With GPA:
-                        </p>
-                      </div>
-                    </div>
-                    <button type="submit" id="subscribe-submit17">Subscribe</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <!-- ////////////////////////////////////////// -->
-
-  <div class="super-container">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="awesome-title-container">
-            <h2 class="awesome-title" id="tra">tarining</h2>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <div class="d-flex flex-wrap justify-content-center">
             <div class="subsection">
-              <h3>Subsection 1</h3>
-              <p>Loin euismod est vitae quam bibendum, eget faucibus enim consectetur. </p>
-              <a class="btn btn-primary" id="subscribe-btn18">Learn More</a>
-              <div id="popup-container18">
-                <div class="popup-content">
-                  <button id="close-btn18">&times;</button>
-                  <h2>2019 – 2023 Computer Science student</h2>
-                  <form>
-                    <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
-                    <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
-                    <div class="row">
-                      <div class="col-6">
-                        <img style="width: 200px;height: inherit;" src="Picture3.png"/>
-                      </div>
-                      <div class="col-6">
-                        <p><b>2019 – 2023</b><br>
-                          Computer Science student at Faculty of Computers and Artificial Intelligence
-                          Cairo University With GPA:
-                        </p>
-                      </div>
-                    </div>
-                    <button type="submit" id="subscribe-submit18">Subscribe</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-            <div class="subsection">
-              <h3>Subsection 2</h3>
-              <p>Looin euismod est vitae quam bibendum, eget faucibus enim consectetur. </p>
-              <a class="btn btn-primary" id="subscribe-btn19">Learn More</a>
-              <div id="popup-container19">
-                <div class="popup-content">
-                  <button id="close-btn19">&times;</button>
-                  <h2>2019 – 2023 Computer Science student</h2>
-                  <form>
-                    <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
-                    <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
-                    <div class="row">
-                      <div class="col-6">
-                        <img style="width: 200px;height: inherit;" src="Picture3.png"/>
-                      </div>
-                      <div class="col-6">
-                        <p><b>2019 – 2023</b><br>
-                          Computer Science student at Faculty of Computers and Artificial Intelligence
-                          Cairo University With GPA:
-                        </p>
-                      </div>
-                    </div>
-                    <button type="submit" id="subscribe-submit19">Subscribe</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-            <div class="subsection">
-              <h3>Subsection 3</h3>
-              <p>LorProin euismod est vitae quam bibendum, eget faucibus enim consectetur. </p>
-              <a class="btn btn-primary" id="subscribe-btn20">Learn More</a>
-              <div id="popup-container20">
-                <div class="popup-content">
-                  <button id="close-btn20">&times;</button>
-                  <h2>2019 – 2023 Computer Science student</h2>
-                  <form>
-                    <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
-                    <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
-                    <div class="row">
-                      <div class="col-6">
-                        <img style="width: 200px;height: inherit;" src="Picture3.png"/>
-                      </div>
-                      <div class="col-6">
-                        <p><b>2019 – 2023</b><br>
-                          Computer Science student at Faculty of Computers and Artificial Intelligence
-                          Cairo University With GPA:
-                        </p>
-                      </div>
-                    </div>
-                    <button type="submit" id="subscribe-submit20">Subscribe</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-            <div class="subsection">
-              <h3>Subsection 4</h3>
-              <p>Lroin euismod est vitae quam bibendum, eget faucibus enim consectetur. </p>
-              <a class="btn btn-primary" id="subscribe-btn21">Learn More</a>
-              <div id="popup-container21">
-                <div class="popup-content">
-                  <button id="close-btn21">&times;</button>
-                  <h2>2019 – 2023 Computer Science student</h2>
-                  <form>
-                    <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
-                    <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
-                    <div class="row">
-                      <div class="col-6">
-                        <img style="width: 200px;height: inherit;" src="Picture3.png"/>
-                      </div>
-                      <div class="col-6">
-                        <p><b>2019 – 2023</b><br>
-                          Computer Science student at Faculty of Computers and Artificial Intelligence
-                          Cairo University With GPA:
-                        </p>
-                      </div>
-                    </div>
-                    <button type="submit" id="subscribe-submit21">Subscribe</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-            <div class="subsection">
-              <h3>Subsection 5</h3>
-              <p>Lorroin euismod est vitae quam bibendum, eget faucibus enim consectetur. </p>
-              <a class="btn btn-primary" id="subscribe-btn22">Learn More</a>
+              <h3>Meta pending...</h3>
+              <p>software engineering training </p>
+              <a class="btn btn-primary" id="subscribe-btn22">See More</a>
               <div id="popup-container22">
                 <div class="popup-content">
                   <button id="close-btn22">&times;</button>
@@ -993,7 +947,11 @@
                     <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
                     <div class="row">
                       <div class="col-6">
-                        <img style="width: 200px;height: inherit;" src="Picture3.png"/>
+                        <div class="gallery">
+                          <a data-fancybox="gallery" href="sawy/hr.jpg"><img style="width: 200px;height: inherit;" src="sawy/hr.jpg"></a>
+                          <a href="https://www.coursera.com" target="_blank">verified</a>
+                        </div>
+                        <!-- <img style="width: 200px;height: inherit;" src="Picture3.png"/> -->
                       </div>
                       <div class="col-6">
                         <p><b>2019 – 2023</b><br>
@@ -1007,20 +965,25 @@
                 </div>
               </div>
             </div>
+
             <div class="subsection">
-              <h3>Subsection 5</h3>
-              <p>in euismod est vitae quam bibendum, eget faucibus enim consectetur. </p>
-              <a class="btn btn-primary" id="subscribe-btn23">Learn More</a>
-              <div id="popup-container23">
+              <h3>GDSC Al-Azhar</h3>
+              <p>graphic design </p>
+              <a class="btn btn-primary" id="subscribe-btn22">See More</a>
+              <div id="popup-container22">
                 <div class="popup-content">
-                  <button id="close-btn23">&times;</button>
+                  <button id="close-btn22">&times;</button>
                   <h2>2019 – 2023 Computer Science student</h2>
                   <form>
                     <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
                     <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
                     <div class="row">
                       <div class="col-6">
-                        <img style="width: 200px;height: inherit;" src="Picture3.png"/>
+                        <div class="gallery">
+                          <a data-fancybox="gallery" href="sawy/hr.jpg"><img style="width: 200px;height: inherit;" src="sawy/hr.jpg"></a>
+                          <a href="https://www.coursera.com" target="_blank">verified</a>
+                        </div>
+                        <!-- <img style="width: 200px;height: inherit;" src="Picture3.png"/> -->
                       </div>
                       <div class="col-6">
                         <p><b>2019 – 2023</b><br>
@@ -1029,65 +992,12 @@
                         </p>
                       </div>
                     </div>
-                    <button type="submit" id="subscribe-submit23">Subscribe</button>
+                    <button type="submit" id="subscribe-submit22">Subscribe</button>
                   </form>
                 </div>
               </div>
             </div>
-            <div class="subsection">
-              <h3>Subsection 5</h3>
-              <p>L Proin euismod est vitae quam bibendum, eget faucibus enim consectetur. </p>
-              <a class="btn btn-primary" id="subscribe-btn24">Learn More</a>
-              <div id="popup-container24">
-                <div class="popup-content">
-                  <button id="close-btn24">&times;</button>
-                  <h2>2019 – 2023 Computer Science student</h2>
-                  <form>
-                    <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
-                    <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
-                    <div class="row">
-                      <div class="col-6">
-                        <img style="width: 200px;height: inherit;" src="Picture3.png"/>
-                      </div>
-                      <div class="col-6">
-                        <p><b>2019 – 2023</b><br>
-                          Computer Science student at Faculty of Computers and Artificial Intelligence
-                          Cairo University With GPA:
-                        </p>
-                      </div>
-                    </div>
-                    <button type="submit" id="subscribe-submit24">Subscribe</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-            <div class="subsection">
-              <h3>Subsection 5</h3>
-              <p>Lorem iProin euismod est vitae quam bibendum, eget faucibus enim consectetur. </p>
-              <a class="btn btn-primary" id="subscribe-btn25">Learn More</a>
-              <div id="popup-container25">
-                <div class="popup-content">
-                  <button id="close-btn25">&times;</button>
-                  <h2>2019 – 2023 Computer Science student</h2>
-                  <form>
-                    <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
-                    <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
-                    <div class="row">
-                      <div class="col-6">
-                        <img style="width: 200px;height: inherit;" src="Picture3.png"/>
-                      </div>
-                      <div class="col-6">
-                        <p><b>2019 – 2023</b><br>
-                          Computer Science student at Faculty of Computers and Artificial Intelligence
-                          Cairo University With GPA:
-                        </p>
-                      </div>
-                    </div>
-                    <button type="submit" id="subscribe-submit25">Subscribe</button>
-                  </form>
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
@@ -1101,7 +1011,7 @@
     <div class="row">
       <div class="col-12">
         <div class="awesome-title-container">
-          <h2 class="awesome-title" id="vol">voluntering</h2>
+          <h2 class="awesome-title" id="volunteering">Volunteering</h2>
         </div>
       </div>
     </div>
@@ -1109,45 +1019,640 @@
       <div class="col-12">
         <div class="d-flex flex-wrap justify-content-center">
           <div class="subsection">
-            <h3>Subsection 1</h3>
-            <p>Loin euismod est vitae quam bibendum, eget faucibus enim consectetur. </p>
-            <a class="btn btn-primary" id="subscribe-btn26">Learn More</a>
-              <div id="popup-container26">
-                <div class="popup-content">
-                  <button id="close-btn26">&times;</button>
-                  <h2>2019 – 2023 Computer Science student</h2>
-                  <form>
-                    <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
-                    <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
-                    <div class="row">
-                      <div class="col-6">
-                        <img style="width: 200px;height: inherit;" src="Picture3.png"/>
+            <h3>IEEE</h3>
+            <p>Instructor and facilitator data science</p>
+            <a class="btn btn-primary" id="subscribe-btn13">See More</a>
+            <div id="popup-container13">
+              <div class="popup-content">
+                <button id="close-btn13">&times;</button>
+                <h2>Orange Innovation Summer training</h2>
+                <form>
+                  <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
+                  <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="gallery">
+                        <a data-fancybox="gallery" href="Ind certificates/Orange.jpg"><img style="width: 200px;height: inherit;" src="Ind certificates/Orange.jpg"></a>
                       </div>
-                      <div class="col-6">
-                        <p><b>2019 – 2023</b><br>
-                          Computer Science student at Faculty of Computers and Artificial Intelligence
-                          Cairo University With GPA:
-                        </p>
-                      </div>
+                      <!-- <img style="width: 200px;height: inherit;" src="Orange.jpg"/> -->
                     </div>
-                    <button type="submit" id="subscribe-submit26">Subscribe</button>
-                  </form>
-                </div>
+                    <div class="col-6">
+                      <p><b>8/2022 – 10/2022</b><br>
+                        trainee with data science team
+                      </p>
+                    </div>
+                  </div>
+                  <button type="submit" id="subscribe-submit13">Subscribe</button>
+                </form>
               </div>
+            </div>
           </div>
+
+          <div class="subsection">
+            <h3>2-GDSC</h3>
+            <p>Instructor and mentor data science</p>
+            <a class="btn btn-primary" id="subscribe-btn23">See More</a>
+            <div id="popup-container23">
+              <div class="popup-content">
+                <button id="close-btn23">&times;</button>
+                <h2>Orange Innovation Summer training</h2>
+                <form>
+                  <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
+                  <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="gallery">
+                        <a data-fancybox="gallery" href="Ind certificates/Orange.jpg"><img style="width: 200px;height: inherit;" src="Ind certificates/Orange.jpg"></a>
+                      </div>
+                      <!-- <img style="width: 200px;height: inherit;" src="Orange.jpg"/> -->
+                    </div>
+                    <div class="col-6">
+                      <p><b>8/2022 – 10/2022</b><br>
+                        trainee with data science team
+                      </p>
+                    </div>
+                  </div>
+                  <button type="submit" id="subscribe-submit23">Subscribe</button>
+                </form>
+              </div>
+            </div>
           </div>
+
+          <div class="subsection">
+            <h3>ICPC</h3>
+            <p>Instructor and facilitator problem solving </p>
+            <a class="btn btn-primary" id="subscribe-btn24">See More</a>
+            <div id="popup-container24">
+              <div class="popup-content">
+                <button id="close-btn24">&times;</button>
+                <h2>Orange Innovation Summer training</h2>
+                <form>
+                  <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
+                  <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="gallery">
+                        <a data-fancybox="gallery" href="Ind certificates/Orange.jpg"><img style="width: 200px;height: inherit;" src="Ind certificates/Orange.jpg"></a>
+                      </div>
+                      <!-- <img style="width: 200px;height: inherit;" src="Orange.jpg"/> -->
+                    </div>
+                    <div class="col-6">
+                      <p><b>8/2022 – 10/2022</b><br>
+                        trainee with data science team
+                      </p>
+                    </div>
+                  </div>
+                  <button type="submit" id="subscribe-submit24">Subscribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="subsection">
+            <h3>Hult Prize</h3>
+            <p>Public Relations Speicalist </p>
+            <a class="btn btn-primary" id="subscribe-btn25">See More</a>
+            <div id="popup-container25">
+              <div class="popup-content">
+                <button id="close-btn25">&times;</button>
+                <h2>Orange Innovation Summer training</h2>
+                <form>
+                  <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
+                  <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="gallery">
+                        <a data-fancybox="gallery" href="Ind certificates/Orange.jpg"><img style="width: 200px;height: inherit;" src="Ind certificates/Orange.jpg"></a>
+                      </div>
+                      <!-- <img style="width: 200px;height: inherit;" src="Orange.jpg"/> -->
+                    </div>
+                    <div class="col-6">
+                      <p><b>8/2022 – 10/2022</b><br>
+                        trainee with data science team
+                      </p>
+                    </div>
+                  </div>
+                  <button type="submit" id="subscribe-submit25">Subscribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="subsection">
+            <h3>Others</h3>
+            <p>other communities </p>
+            <a class="btn btn-primary" id="subscribe-btn26">See More</a>
+            <div id="popup-container26">
+              <div class="popup-content">
+                <button id="close-btn26">&times;</button>
+                <h2>Orange Innovation Summer training</h2>
+                <form>
+                  <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
+                  <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="gallery">
+                        <a data-fancybox="gallery" href="Ind certificates/Orange.jpg"><img style="width: 200px;height: inherit;" src="Ind certificates/Orange.jpg"></a>
+                      </div>
+                      <!-- <img style="width: 200px;height: inherit;" src="Orange.jpg"/> -->
+                    </div>
+                    <div class="col-6">
+                      <p><b>8/2022 – 10/2022</b><br>
+                        trainee with data science team
+                      </p>
+                    </div>
+                  </div>
+                  <button type="submit" id="subscribe-submit26">Subscribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<!-- ////////////////////////////////////////////// -->
 
+<div class="super-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="awesome-title-container">
+          <h2 class="awesome-title" id="hckandcomp">Hackathons and Competitions</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex flex-wrap justify-content-center">
+          <div class="subsection">
+            <h3>Meta competition</h3>
+            <p>competition</p>
+            <a class="btn btn-primary" id="subscribe-btn14">See More</a>
+            <div id="popup-container14">
+              <div class="popup-content">
+                <button id="close-btn14">&times;</button>
+                <h2>2019 – 2023 Computer Science student</h2>
+                <form>
+                  <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
+                  <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="gallery">
+                        <a data-fancybox="gallery" href="Ind certificates/Meta Hacker Cup.jpg"><img style="width: 200px;height: inherit;" src="Ind certificates/Meta Hacker Cup.jpg"></a>
+                        <a href="https://www.meta.com" target="_blank">verified</a>
+                      </div>
+                      <!-- <img style="width: 200px;height: inherit;" src="Picture3.png"/> -->
+                    </div>
+                    <div class="col-6">
+                      <p><b>2019 – 2023</b><br>
+                        Computer Science student at Faculty of Computers and Artificial Intelligence
+                        Cairo University With GPA:
+                      </p>
+                    </div>
+                  </div>
+                  <button type="submit" id="subscribe-submit14">Subscribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
 
+          <div class="subsection">
+            <h3>ICPC contest</h3>
+            <p>competition</p>
+            <a class="btn btn-primary" id="subscribe-btn27">See More</a>
+            <div id="popup-container27">
+              <div class="popup-content">
+                <button id="close-btn27">&times;</button>
+                <h2>2019 – 2023 Computer Science student</h2>
+                <form>
+                  <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
+                  <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="gallery">
+                        <a data-fancybox="gallery" href="Ind certificates/Meta Hacker Cup.jpg"><img style="width: 200px;height: inherit;" src="Ind certificates/Meta Hacker Cup.jpg"></a>
+                        <a href="https://www.meta.com" target="_blank">verified</a>
+                      </div>
+                      <!-- <img style="width: 200px;height: inherit;" src="Picture3.png"/> -->
+                    </div>
+                    <div class="col-6">
+                      <p><b>2019 – 2023</b><br>
+                        Computer Science student at Faculty of Computers and Artificial Intelligence
+                        Cairo University With GPA:
+                      </p>
+                    </div>
+                  </div>
+                  <button type="submit" id="subscribe-submit27">Subscribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          
 
+          <div class="subsection">
+            <h3>OPET in UH GAF</h3>
+            <p>competition</p>
+            <a class="btn btn-primary" id="subscribe-btn28">See More</a>
+            <div id="popup-container28">
+              <div class="popup-content">
+                <button id="close-btn28">&times;</button>
+                <h2>2019 – 2023 Computer Science student</h2>
+                <form>
+                  <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
+                  <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="gallery">
+                        <a data-fancybox="gallery" href="Ind certificates/Meta Hacker Cup.jpg"><img style="width: 200px;height: inherit;" src="Ind certificates/Meta Hacker Cup.jpg"></a>
+                        <a href="https://www.meta.com" target="_blank">verified</a>
+                      </div>
+                      <!-- <img style="width: 200px;height: inherit;" src="Picture3.png"/> -->
+                    </div>
+                    <div class="col-6">
+                      <p><b>2019 – 2023</b><br>
+                        Computer Science student at Faculty of Computers and Artificial Intelligence
+                        Cairo University With GPA:
+                      </p>
+                    </div>
+                  </div>
+                  <button type="submit" id="subscribe-submit28">Subscribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          
 
+          <div class="subsection">
+            <h3>She Seeds Change</h3>
+            <p>competition</p>
+            <a class="btn btn-primary" id="subscribe-btn29">See More</a>
+            <div id="popup-container29">
+              <div class="popup-content">
+                <button id="close-btn29">&times;</button>
+                <h2>2019 – 2023 Computer Science student</h2>
+                <form>
+                  <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
+                  <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="gallery">
+                        <a data-fancybox="gallery" href="Ind certificates/Meta Hacker Cup.jpg"><img style="width: 200px;height: inherit;" src="Ind certificates/Meta Hacker Cup.jpg"></a>
+                        <a href="https://www.meta.com" target="_blank">verified</a>
+                      </div>
+                      <!-- <img style="width: 200px;height: inherit;" src="Picture3.png"/> -->
+                    </div>
+                    <div class="col-6">
+                      <p><b>2019 – 2023</b><br>
+                        Computer Science student at Faculty of Computers and Artificial Intelligence
+                        Cairo University With GPA:
+                      </p>
+                    </div>
+                  </div>
+                  <button type="submit" id="subscribe-submit29">Subscribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="subsection">
+            <h3>Benha Smart Government hack. </h3>
+            <p>competition</p>
+            <a class="btn btn-primary" id="subscribe-btn30">See More</a>
+            <div id="popup-container30">
+              <div class="popup-content">
+                <button id="close-btn30">&times;</button>
+                <h2>2019 – 2023 Computer Science student</h2>
+                <form>
+                  <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
+                  <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="gallery">
+                        <a data-fancybox="gallery" href="Ind certificates/Meta Hacker Cup.jpg"><img style="width: 200px;height: inherit;" src="Ind certificates/Meta Hacker Cup.jpg"></a>
+                        <a href="https://www.meta.com" target="_blank">verified</a>
+                      </div>
+                      <!-- <img style="width: 200px;height: inherit;" src="Picture3.png"/> -->
+                    </div>
+                    <div class="col-6">
+                      <p><b>2019 – 2023</b><br>
+                        Computer Science student at Faculty of Computers and Artificial Intelligence
+                        Cairo University With GPA:
+                      </p>
+                    </div>
+                  </div>
+                  <button type="submit" id="subscribe-submit30">Subscribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          
+          <div class="subsection">
+            <h3>Huawei</h3>
+            <p>Huawei ICT National finalist and gold medal </p>
+            <a class="btn btn-primary" id="subscribe-btn5">See More</a>
+            <div id="popup-container5">
+              <div class="popup-content">
+                <button id="close-btn5">&times;</button>
+                <h2>2019 – 2023 Computer Science student</h2>
+                <form>
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="gallery">
+                        <a data-fancybox="gallery" href="Huawei/huawei.jpg"><img style="width: 200px;height: inherit;" src="Huawei/huawei.jpg"></a>
+                        <a href="https://www.huawei.com" target="_blank">verified</a>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <p><b>2019 – 2023</b><br>
+                        Computer Science student at Faculty of Computers and Artificial Intelligence
+                        Cairo University With GPA:
+                      </p>
+                    </div>
+                  </div>
+                  <button type="submit" id="subscribe-submit5">Subscribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ///////////////////////////////////////////////////////// -->
+
+<div class="super-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="awesome-title-container">
+          <h2 class="awesome-title" id="project">Projects</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex flex-wrap justify-content-center">
+          <div class="subsection">
+            <h3>Machine Learning</h3>
+            <p>model classification</p>
+            <a class="btn btn-primary" id="subscribe-btn14">See More</a>
+            <div id="popup-container14">
+              <div class="popup-content">
+                <button id="close-btn14">&times;</button>
+                <h2>2019 – 2023 Computer Science student</h2>
+                <form>
+                  <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
+                  <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="gallery">
+                        <a data-fancybox="gallery" href="Ind certificates/Meta Hacker Cup.jpg"><img style="width: 200px;height: inherit;" src="Ind certificates/Meta Hacker Cup.jpg"></a>
+                        <a href="https://www.meta.com" target="_blank">verified</a>
+                      </div>
+                      <!-- <img style="width: 200px;height: inherit;" src="Picture3.png"/> -->
+                    </div>
+                    <div class="col-6">
+                      <p><b>2019 – 2023</b><br>
+                        Computer Science student at Faculty of Computers and Artificial Intelligence
+                        Cairo University With GPA:
+                      </p>
+                    </div>
+                  </div>
+                  <button type="submit" id="subscribe-submit14">Subscribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="subsection">
+            <h3>Web</h3>
+            <p>websites responsive</p>
+            <a class="btn btn-primary" id="subscribe-btn14">See More</a>
+            <div id="popup-container14">
+              <div class="popup-content">
+                <button id="close-btn14">&times;</button>
+                <h2>2019 – 2023 Computer Science student</h2>
+                <form>
+                  <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
+                  <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="gallery">
+                        <a data-fancybox="gallery" href="Ind certificates/Meta Hacker Cup.jpg"><img style="width: 200px;height: inherit;" src="Ind certificates/Meta Hacker Cup.jpg"></a>
+                        <a href="https://www.meta.com" target="_blank">verified</a>
+                      </div>
+                      <!-- <img style="width: 200px;height: inherit;" src="Picture3.png"/> -->
+                    </div>
+                    <div class="col-6">
+                      <p><b>2019 – 2023</b><br>
+                        Computer Science student at Faculty of Computers and Artificial Intelligence
+                        Cairo University With GPA:
+                      </p>
+                    </div>
+                  </div>
+                  <button type="submit" id="subscribe-submit14">Subscribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ///////////////////////////////////////////////////////// -->
+
+<div class="super-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="awesome-title-container">
+          <h2 class="awesome-title" id="skill">Skills</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex flex-wrap justify-content-center">
+          <div class="subsection">
+            <h3>problem solving</h3>
+            <p>competition</p>
+            <a class="btn btn-primary" id="subscribe-btn14">See More</a>
+            <div id="popup-container14">
+              <div class="popup-content">
+                <button id="close-btn14">&times;</button>
+                <h2>2019 – 2023 Computer Science student</h2>
+                <form>
+                  <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
+                  <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="gallery">
+                        <a data-fancybox="gallery" href="Ind certificates/Meta Hacker Cup.jpg"><img style="width: 200px;height: inherit;" src="Ind certificates/Meta Hacker Cup.jpg"></a>
+                        <a href="https://www.meta.com" target="_blank">verified</a>
+                      </div>
+                      <!-- <img style="width: 200px;height: inherit;" src="Picture3.png"/> -->
+                    </div>
+                    <div class="col-6">
+                      <p><b>2019 – 2023</b><br>
+                        Computer Science student at Faculty of Computers and Artificial Intelligence
+                        Cairo University With GPA:
+                      </p>
+                    </div>
+                  </div>
+                  <button type="submit" id="subscribe-submit14">Subscribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="subsection">
+            <h3>QuikLabs Google Cloud</h3>
+            <p>Google Cloud experience and Padges</p>
+            <a class="btn btn-primary" id="subscribe-btn7">See More</a>
+            <div id="popup-container7">
+              <div class="popup-content">
+                <button id="close-btn7">&times;</button>
+                <h2>2019 – 2023 Computer Science student</h2>
+                <form>
+                  <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
+                  <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="gallery">
+                        <a data-fancybox="gallery" href="Google Cloud/p1.png"><img style="width: 200px;height: inherit;" src="Google Cloud/p1.png"></a>
+                        <a href="https://www.google.com" target="_blank">verified</a>
+                      </div>
+                      <!-- <img style="width: 200px;height: inherit;" src="Picture3.png"/> -->
+                    </div>
+                    <div class="col-6">
+                      <p><b>2019 – 2023</b><br>
+                        Computer Science student at Faculty of Computers and Artificial Intelligence
+                        Cairo University With GPA:
+                      </p>
+                    </div>
+                  </div>
+                  <button type="submit" id="subscribe-submit7">Subscribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="subsection">
+            <h3>PR-Public Relations</h3>
+            <p>p2p</p>
+            <a class="btn btn-primary" id="subscribe-btn7">See More</a>
+            <div id="popup-container7">
+              <div class="popup-content">
+                <button id="close-btn7">&times;</button>
+                <h2>2019 – 2023 Computer Science student</h2>
+                <form>
+                  <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
+                  <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="gallery">
+                        <a data-fancybox="gallery" href="Google Cloud/p1.png"><img style="width: 200px;height: inherit;" src="Google Cloud/p1.png"></a>
+                        <a href="https://www.google.com" target="_blank">verified</a>
+                      </div>
+                      <!-- <img style="width: 200px;height: inherit;" src="Picture3.png"/> -->
+                    </div>
+                    <div class="col-6">
+                      <p><b>2019 – 2023</b><br>
+                        Computer Science student at Faculty of Computers and Artificial Intelligence
+                        Cairo University With GPA:
+                      </p>
+                    </div>
+                  </div>
+                  <button type="submit" id="subscribe-submit7">Subscribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="subsection">
+            <h3>Content Creator </h3>
+            <p>witing amazi posts</p>
+            <a class="btn btn-primary" id="subscribe-btn7">See More</a>
+            <div id="popup-container7">
+              <div class="popup-content">
+                <button id="close-btn7">&times;</button>
+                <h2>2019 – 2023 Computer Science student</h2>
+                <form>
+                  <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
+                  <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="gallery">
+                        <a data-fancybox="gallery" href="Google Cloud/p1.png"><img style="width: 200px;height: inherit;" src="Google Cloud/p1.png"></a>
+                        <a href="https://www.google.com" target="_blank">verified</a>
+                      </div>
+                      <!-- <img style="width: 200px;height: inherit;" src="Picture3.png"/> -->
+                    </div>
+                    <div class="col-6">
+                      <p><b>2019 – 2023</b><br>
+                        Computer Science student at Faculty of Computers and Artificial Intelligence
+                        Cairo University With GPA:
+                      </p>
+                    </div>
+                  </div>
+                  <button type="submit" id="subscribe-submit7">Subscribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="subsection">
+            <h3>Others </h3>
+            <p>.Multi-tasking <br>.Clean code <br>.Flexible-learning</p>
+            <a class="btn btn-primary" id="subscribe-btn7">See More</a>
+            <div id="popup-container7">
+              <div class="popup-content">
+                <button id="close-btn7">&times;</button>
+                <h2>2019 – 2023 Computer Science student</h2>
+                <form>
+                  <!-- <img style="width: 50px;height: inherit;" src="fci.png"/> -->
+                  <!-- <p>djkjkds  skkdd dkkdlkd d dldkdkdk dkdlkld dkdjkjd dkdkldkl lld;fl;f</p> -->
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="gallery">
+                        <a data-fancybox="gallery" href="Google Cloud/p1.png"><img style="width: 200px;height: inherit;" src="Google Cloud/p1.png"></a>
+                        <a href="https://www.google.com" target="_blank">verified</a>
+                      </div>
+                      <!-- <img style="width: 200px;height: inherit;" src="Picture3.png"/> -->
+                    </div>
+                    <div class="col-6">
+                      <p><b>2019 – 2023</b><br>
+                        Computer Science student at Faculty of Computers and Artificial Intelligence
+                        Cairo University With GPA:
+                      </p>
+                    </div>
+                  </div>
+                  <button type="submit" id="subscribe-submit7">Subscribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- //////////////////////////////// -->
   <!-- formmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
-<div id="con">
+<div id="contacts">
   <form action="submit-form.php" method="POST" id="form">
     <h2>Contact Me</h2>
     <div class="form-group">
@@ -1300,17 +1805,17 @@
         <div class="col-md-4">
           <h3>Follow Me</h3>
           <ul class="social-icons">
-            <li><a href="https://www.facebook.com/Mo7amed3Ma7moud"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://twitter.com/Mohamed89570037"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/mohamed-mahmoud-6262311b6/"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="https://github.com/Mo7amed676"><i class="fa fa-github"></i></a></li>
+            <li><a href="https://www.facebook.com/Mo7amed3Ma7moud" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/Mohamed89570037" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/mohamed-mahmoud-6262311b6/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/Mo7amed676" target="_blank"><i class="fa fa-github"></i></a></li>
           </ul>
         </div>
         <div class="col-md-4">
           <h3>My Contacts</h3>
           <ul class="contact-info">
             <li><i class="fa fa-map-marker"></i> Giza, Cairo Egypt</li>
-            <li><a href="https://wa.me/01016354265" class="my-link"><i class="fa fa-whatsapp"></i> (+20) 0101-6354-265</a></li>
+            <li><a href="https://wa.me/201016354265" class="my-link" target="_blank"><i class="fa fa-whatsapp"></i> (+20) 0101-6354-265</a></li>
             <li><a href="mailto:mohamedmahmoudo462@gmail.com" class="my-link"><i class="fa fa-envelope"></i> mohamedmahmoudo462@gmail.com</a></li>
             
           </ul>
@@ -1319,8 +1824,8 @@
           <h3>Legal</h3>
           <ul class="legal-info">
             <!-- <a href="#" onclick="window.open('https://www.example.com', 'popup', 'width=600,height=400')">Link</a> -->
-            <li><a href="#"  target="_blank">Terms of Use</a></li>
-            <li><a href="#"  target="_blank">Privacy Policy</a></li>
+            <li><a href="#" target="_blank">Terms of Use</a></li>
+            <li><a href="#" target="_blank">Privacy Policy</a></li>
             <li>&copy; 2023 Resume. All rights reserved.</li>
           </ul>
         </div>
@@ -2867,6 +3372,33 @@ subscribeForm37.addEventListener("submit", function(event) {
 //   }
 // }
 
+  $(document).ready(function() {
+    $("[data-fancybox]").fancybox({
+      buttons: [
+        "zoom",
+        "slideShow",
+        "thumbs",
+        "close"
+      ],
+      loop: true,
+      protect: true
+    });
+  });
+
+
+
+
+
+
+
+
+
+$(document).ready(function() {
+  $('.gallery img').elevateZoom({
+    zoomType: 'inner',
+    cursor: 'crosshair'
+  });
+});
 
 
 
@@ -2879,10 +3411,14 @@ subscribeForm37.addEventListener("submit", function(event) {
   </script>
   <!-- jQuery -->
   	<!-- Add jQuery library -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/elevatezoom/3.0.8/jquery.elevatezoom.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <!-- Bootstrap JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
