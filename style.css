@@ -1,3 +1,28 @@
+/* #scroll-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  display: none; /* hide the button initially 
+}
+
+#scroll-button i {
+  font-size: 20px;
+  margin: 0 5px;
+}
+
+#scroll-button i.fa-arrow-up {
+  display: none;
+}*/
+/* ظظظظظظظظظظظظظظظظظظظظظظظظظظ */
+ 
+
+
+
 .fancybox-button--zoom {
   background-image: url('zoom.png');
   background-size: 32px 32px;
@@ -76,10 +101,10 @@
   color: #4caf50;
   text-decoration: none;
 }
-.act{
-  color: #4caf50;
-}
 
+.logo{
+  cursor: pointer;
+}
 
 
 
@@ -151,7 +176,7 @@
 
 
 nav {
-  background-color: #333;
+  background-color:rgba(51, 51, 51, 0.1); /* Set background color with 50% opacity */ /*#333;*/
   height: 50px;
   display: flex;
   justify-content: space-between;
@@ -161,6 +186,7 @@ nav {
 /* .nav-link.dropdown-toggle::after {
   display: none;
 } */
+
 
 nav ul {
   list-style: none;
@@ -192,24 +218,114 @@ nav a:hover {
   display: block;
 }
 /* Search bar styles */
+/* .search-container {
+  display: flex;
+  align-items: center;
+} */
+/* //////////////////////////////////// */
+/* ///////////////////////////////////////////// */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  /* background-color: #333; */
+  background-color:rgba(51, 51, 51, 0.7); /* Set background color with 50% opacity */ /*#333;*/
+  transition: background-color 0.3s ease; /* Add transition effect to the background color */
+
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  padding: 5px 0;
+  z-index: 9999;
+  transition: transform .3s ease-in-out;
+}
+
+/* / */
+.navbar.hidden {
+  transform: translateY(-100%);
+}
+
+.navbar.visible {
+  transform: translateY(0);
+}
+/* / */
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navhov {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  transition: color .2s ease-in-out;
+}
+
+.navhov:hover {
+  color: #4caf50;
+}
+.act{
+  color: #3da33d;
+}
 .search-container {
   display: flex;
   align-items: center;
 }
 
+/* .navbar.opaque {
+  background-color: rgba(51, 51, 51, 1); /* Set background color with 100% opacity 
+} */
+
+
 .search-input {
   border: none;
-  padding: 5px;
+  border-bottom: 2px solid #4caf50;
+  font-size: 16px;
+  padding: 5px 10px;
   margin-left: 10px;
   border-radius: 5px;
 }
 
+button[type="submit"] {
+  background-color: #c62828;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+/* ///////////////////////////////////////// */
+/* ////////////////////////////////////////// */
+/* .search-input {
+  border: none;
+  padding: 5px;
+  margin-left: 10px;
+  border-radius: 5px;
+} */
+
 /* Logo styles */
-.logo {
+/* .logo {
   font-weight: bold;
   font-size: 24px;
   color: #fff;
-}
+} */
 
 #scroll-to-top-btn {
   display: none;
@@ -3339,4 +3455,97 @@ form button[type="submit"]:hover {
   
 
 
+  
+
+
+
+
+
+/* 
+
+  .partners {
+    /* overflow-x: auto; Enable horizontal scrolling */
+    /* width: 100%; */
+  /* overflow-x: hidden; Hide horizontal scrollbar */
+    /* white-space: nowrap; Prevent line breaks between partners */
+  /* } */
+  
+  /* .partners-list { */
+    /* display: inline-block; Set the list as an inline block */
+    /* padding: 10px; Add some padding to the list */
+    /* display: inline-flex; */
+  /* animation: scroll 80s linear infinite; Adjust animation duration as needed */
+
+  /* } */
+  
+  /* .partners-list ul { */
+    /* display: inline-flex; Display the list items as a flex container */
+    /* list-style: none; Remove default list styles */
+    /* margin: 0; Remove default margins */
+    /* padding: 0; Remove default padding */
+  /* } */
+  
+  /* .partners-list li { */
+    /* margin-right: 20px; Add some space between partners */
+  /* } */
+  
+  /* .partners-list img { */
+    /* max-height: 60px; Set a maximum height for partner logos */
+    /* margin-right: 50px; Add spacing between logos */
+  /* } */
+/*   
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-100% + 50px)); /* Adjust 50px to match margin-right of images 
+    }
+   }  */
+
+   .partners-container {
+    width: 80%;
+    height: 80px;
+    overflow: hidden;
+    position: relative;
+    width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  }
+  
+  .partners-list {
+    display: flex;
+    position: absolute;
+    animation: scroll 20s linear infinite;
+    animation-play-state: running;
+    left: 40%; /* Move the container to the left by 50% of its width */
+
+  }
+  
+  .partner-logo {
+    width: 120px;
+    height: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .partner-logo img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .partners-container:hover .partners-list {
+    animation-play-state: paused;
+  }
   

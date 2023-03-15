@@ -1,3 +1,58 @@
+
+
+
+// const scrollButton = document.getElementById("scroll-button");
+
+// function updateScrollButton() {
+//   if (window.scrollY > 0) {
+//     scrollButton.querySelector(".fa-arrow-up").style.display = "block";
+//     scrollButton.querySelector(".fa-arrow-down").style.display = "block";
+//     scrollButton.classList.remove("down");
+//     scrollButton.classList.add("up");
+//     scrollButton.style.display = "block";
+//   } else {
+//     scrollButton.querySelector(".fa-arrow-up").style.display = "none";
+//     scrollButton.querySelector(".fa-arrow-down").style.display = "block";
+//     scrollButton.classList.remove("up");
+//     scrollButton.classList.add("down");
+//     scrollButton.style.display = "none";
+//   }
+
+//   if (window.scrollY < (document.documentElement.scrollHeight - window.innerHeight)) {
+//     scrollButton.querySelector(".fa-arrow-down").style.display = "block";
+//     scrollButton.querySelector(".fa-arrow-up").style.display = "block";
+//     scrollButton.classList.remove("up");
+//     scrollButton.classList.add("down");
+//     scrollButton.style.display = "block";
+//   } else {
+//     scrollButton.querySelector(".fa-arrow-down").style.display = "none";
+//     scrollButton.querySelector(".fa-arrow-up").style.display = "block";
+//     scrollButton.classList.remove("down");
+//     scrollButton.classList.add("up");
+//     scrollButton.style.display = "none";
+//   }
+// }
+
+// window.addEventListener("scroll", updateScrollButton);
+// window.addEventListener("resize", updateScrollButton);
+// window.addEventListener("load", updateScrollButton);
+
+// scrollButton.addEventListener("click", () => {
+//   if (scrollButton.classList.contains("up")) {
+//     window.scrollTo({
+//       top: 0,
+//       behavior: "smooth"
+//     });
+//   } else {
+//     window.scrollTo({
+//       top: document.documentElement.scrollHeight,
+//       behavior: "smooth"
+//     });
+//   }
+// });
+
+// ///////////////////////////////////////////////////////////////
+
 window.addEventListener('load', function() {
   var preloader = document.getElementById('preloader');
   preloader.style.display = 'none';
@@ -151,3 +206,65 @@ function toggleContent() {
 // }
 
 
+
+let prevScrollPos = window.pageYOffset;
+window.onscroll = function() {
+  const currentScrollPos = window.pageYOffset;
+  const navbar = document.querySelector(".navbar");
+
+  if (prevScrollPos > currentScrollPos) {
+    navbar.classList.remove("hidden");
+    navbar.classList.add("visible");
+  } else {
+    navbar.classList.remove("visible");
+    navbar.classList.add("hidden");
+  }
+
+  prevScrollPos = currentScrollPos;
+}
+
+
+// Add active class to "Home" link when at the top of the page
+const homeLink = document.querySelector('.nav-link[href="#home"]');
+window.addEventListener('scroll', () => {
+  const scrollPosition = window.scrollY;
+  if (scrollPosition === 0) {
+    homeButton.classList.add('act');
+  } else {
+    homeButton.classList.remove('act');
+  }
+});
+
+// Scroll to top of page when "Home" button is clicked
+const homeButton = document.querySelector('.act');
+homeButton.addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+// Scroll to top of page when "Home" button is clicked
+const logoButton = document.querySelector('.logo');
+logoButton.addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+
+
+window.addEventListener('scroll', function() {
+  var navbar = document.getElementById('navbar');
+			var scrollPosition = window.scrollY;
+
+			if (scrollPosition > 0) {
+				navbar.classList.add('opaque');
+			} else {
+				navbar.classList.remove('opaque');
+			}
+});
+
+
+
+
+const partnersList = document.querySelector('.partners-list');
+
+partnersList.addEventListener('animationiteration', () => {
+  partnersList.scrollTo(0, 0);
+});
